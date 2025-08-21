@@ -6,10 +6,7 @@
   <ul>
     {% for nav in navigation %}
       <li>
-        {% if nav.url %}
-          {% comment %}internal/external URL check{% endcomment %}
-          {% if nav.url contains "://" %}
-            {% assign domain = "" %}
+        # Talks and Teaching removed
           {% else %}
             {% assign domain = base_path %}
           {% endif %}
