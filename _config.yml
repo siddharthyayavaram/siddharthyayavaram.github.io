@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Siddharth Yayavaram"
 title_separator          : "-"
 name                     : &name "Siddharth Yayavaram"
-description              : &description "personal description"
+description              : &description ""
 url                      : https://siddharthyayavaram.github.io # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "siddharthyayavaram/siddharthyayavaram.github.io"
@@ -22,25 +22,16 @@ repository               : "siddharthyayavaram/siddharthyayavaram.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  # avatar           : "profile.png"
   name             : "Siddharth Yayavaram"
-  pronouns         : "he/him"
-  bio              : "Graduate Student @ CMU"
-  location         : "USA"
+  # pronouns         : "he/him"
+  bio              : "Graduate Student @ CMU LTI"
+  location         : "Pittsburgh, PA, USA"
   email            : "siddharth.yayavaram@gmail.com"
 
   github           : "siddharthyayavaram"
   # Social media
   linkedin         : siddharth-yayavaram
-
-# Publication Category - The following the list of publication categories and their headings
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -154,9 +145,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "
-
-"
+excerpt_separator: ""
 incremental: false
 
 

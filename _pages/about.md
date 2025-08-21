@@ -7,4 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master's student in Computer Science at Carnegie Mellon University, specializing in NLP and Machine Learning. I am also a gold medalist from BITS Pilani, where I completed my Bachelor's in Computer Science.
+Hello, I’m Siddharth Yayavaram  
+
+I’m a Master’s student in Natural Language Processing and Machine Learning at Carnegie Mellon University.  
+I earned my Bachelor’s degree in Computer Science from BITS Pilani, graduating as the Institute Gold Medalist (Rank 1) with a **GPA of 9.97/10**.
