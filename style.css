@@ -1,26 +1,105 @@
+/* Base Styles */
 body {
-  font-family: Arial, sans-serif;
-  max-width: 800px;
-  margin: auto;
-  padding: 2rem;
-  line-height: 1.6;
-  background: #fafafa;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #111;
+  background-color: #fff;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  line-height: 1.65;
 }
 
+/* Navigation */
 nav {
-  margin-bottom: 2rem;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 nav a {
-  margin-right: 1rem;
+  margin: 0 15px;
   text-decoration: none;
-  color: #0366d6;
+  font-weight: 600;
+  color: #111;
+  transition: color 0.3s ease;
 }
 
 nav a:hover {
+  color: #555;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Strong Text */
+strong {
+  color: #000;
+}
+
+/* Links inside content */
+a {
+  color: #111;
   text-decoration: underline;
 }
 
-h1 {
-  color: #333;
+a:hover {
+  color: #555;
+}
+
+/* Publications */
+.publication {
+  margin-bottom: 35px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.pub-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.pub-authors {
+  font-style: italic;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.pub-venue {
+  color: #444;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.pub-links a {
+  text-decoration: none;
+  color: #111;
+  margin-right: 12px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.pub-links a:hover {
+  color: #555;
+}
+
+/* Clean responsive */
+@media (max-width: 600px) {
+  body {
+    padding: 20px 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
 }
