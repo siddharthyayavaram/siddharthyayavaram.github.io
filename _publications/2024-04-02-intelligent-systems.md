@@ -1,5 +1,5 @@
 ---
-title: ""Interpretable Feature Optimization for Sadness Recognition in Speech Emotion Analysis
+title: "Interpretable Feature Optimization for Sadness Recognition in Speech Emotion Analysis"
 collection: publications
 date: 2024-08-01
 venue: 'IEEE Intelligent Systems (IS)'
