@@ -153,6 +153,7 @@ a:hover {
 /* ===================================== */
 /* ===================================== */
 /* Publications */
+/* General publication block styling */
 .publication {
   margin-bottom: 40px;
   padding-bottom: 25px;
@@ -162,6 +163,13 @@ a:hover {
   border-bottom: 1px solid #eee;
 }
 
+/* Last publication only: reduce spacing so note sits closer */
+.publication:last-of-type {
+  margin-bottom: 4px;
+  padding-bottom: 4px;
+}
+
+/* Title */
 .pub-title {
   font-weight: 600;
   font-size: 19px;
@@ -171,6 +179,7 @@ a:hover {
   font-family: 'Inter', sans-serif;
 }
 
+/* Authors */
 .pub-authors {
   color: #555;
   margin-bottom: 6px;
@@ -178,6 +187,7 @@ a:hover {
   font-family: 'Inter', sans-serif;
 }
 
+/* Venue */
 .pub-venue {
   color: #777;
   margin-bottom: 6px;
@@ -186,10 +196,12 @@ a:hover {
   font-style: normal; /* no italics */
 }
 
+/* Links wrapper */
 .pub-links {
   margin-top: 4px;
 }
 
+/* Links */
 .pub-links a {
   display: inline-block;
   margin-right: 18px;
@@ -204,6 +216,15 @@ a:hover {
 .pub-links a:hover {
   color: #004999;   /* darker blue hover */
   text-decoration: underline;
+}
+
+/* Note below publications */
+.pub-note {
+  font-size: 14px;
+  color: #555;
+  font-family: 'Inter', sans-serif;
+  margin-top: 2px;
+  margin-bottom: 20px;
 }
 
 
