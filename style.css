@@ -1,105 +1,155 @@
 /* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  color: #111;
-  background-color: #fff;
-  max-width: 900px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #333;
+  background-color: #fafafa;
+  max-width: 800px;
   margin: 0 auto;
-  padding: 40px 20px;
-  line-height: 1.65;
+  padding: 60px 30px;
+  line-height: 1.6;
+  font-size: 16px;
 }
 
 /* Navigation */
 nav {
+  margin-bottom: 60px;
   text-align: center;
-  margin-bottom: 50px;
 }
 
 nav a {
-  margin: 0 15px;
+  display: inline-block;
+  margin: 0 20px;
+  padding: 8px 16px;
   text-decoration: none;
-  font-weight: 600;
-  color: #111;
-  transition: color 0.3s ease;
+  font-weight: 500;
+  color: #666;
+  transition: color 0.2s ease;
+  min-width: 80px;
+  text-align: center;
 }
 
 nav a:hover {
-  color: #555;
+  color: #333;
+}
+
+/* Active page styling - add this class to current page link */
+nav a.active {
+  color: #333;
+  font-weight: 600;
 }
 
 /* Headings */
 h1 {
-  font-size: 2.2rem;
-  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
   margin-bottom: 40px;
-  font-weight: 700;
+  color: #333;
 }
 
 /* Paragraphs */
 p {
-  font-size: 1rem;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  color: #444;
 }
 
 /* Strong Text */
 strong {
-  color: #000;
+  color: #333;
+  font-weight: 600;
 }
 
-/* Links inside content */
+/* Links */
 a {
-  color: #111;
-  text-decoration: underline;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #ddd;
+  transition: border-color 0.2s ease;
 }
 
 a:hover {
-  color: #555;
+  border-bottom-color: #333;
+}
+
+/* Navigation links override */
+nav a {
+  border-bottom: none;
 }
 
 /* Publications */
 .publication {
-  margin-bottom: 35px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+}
+
+.publication:not(:last-child) {
+  border-bottom: 1px solid #eee;
 }
 
 .pub-title {
-  font-weight: 700;
-  font-size: 1.1rem;
-  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #333;
+  line-height: 1.4;
 }
 
 .pub-authors {
-  font-style: italic;
-  color: #222;
-  margin-bottom: 5px;
+  color: #666;
+  margin-bottom: 6px;
+  font-size: 15px;
 }
 
 .pub-venue {
-  color: #444;
-  margin-bottom: 8px;
-  font-size: 0.95rem;
+  color: #888;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.pub-links {
+  margin-top: 12px;
 }
 
 .pub-links a {
-  text-decoration: none;
-  color: #111;
-  margin-right: 12px;
+  display: inline-block;
+  margin-right: 20px;
+  color: #666;
+  font-size: 14px;
   font-weight: 500;
-  transition: color 0.3s ease;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1px;
+  transition: all 0.2s ease;
 }
 
 .pub-links a:hover {
-  color: #555;
+  color: #333;
+  border-bottom-color: #333;
 }
 
-/* Clean responsive */
+/* Responsive */
 @media (max-width: 600px) {
   body {
-    padding: 20px 15px;
+    padding: 40px 20px;
+    font-size: 15px;
   }
-
+  
+  nav a {
+    margin: 0 12px;
+    min-width: 60px;
+    font-size: 15px;
+  }
+  
   h1 {
-    font-size: 1.8rem;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .pub-title {
+    font-size: 17px;
   }
 }
