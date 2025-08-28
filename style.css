@@ -25,7 +25,7 @@ body {
 /* ===================================== */
 /* Navigation */
 nav {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -150,6 +150,9 @@ a:hover {
 
 /* ===================================== */
 /* Publications */
+/* ===================================== */
+/* ===================================== */
+/* Publications */
 .publication {
   margin-bottom: 40px;
   padding-bottom: 25px;
@@ -165,7 +168,7 @@ a:hover {
   margin-bottom: 10px;
   color: #222;
   line-height: 1.4;
-  font-family: 'Merriweather', serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .pub-authors {
@@ -177,32 +180,33 @@ a:hover {
 
 .pub-venue {
   color: #777;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
   font-size: 15px;
-  font-style: italic;
   font-family: 'Inter', sans-serif;
+  font-style: normal; /* no italics */
 }
 
 .pub-links {
-  margin-top: 10px;
+  margin-top: 4px;
 }
 
 .pub-links a {
   display: inline-block;
   margin-right: 18px;
-  color: #555;
+  color: #0066cc;   /* blue */
   font-size: 14px;
   font-weight: 500;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 2px;
-  transition: all 0.2s ease;
+  text-decoration: none;
+  transition: color 0.2s ease;
   font-family: 'Inter', sans-serif;
 }
 
 .pub-links a:hover {
-  color: #111;
-  border-bottom-color: #111;
+  color: #004999;   /* darker blue hover */
+  text-decoration: underline;
 }
+
+
 
 /* ===================================== */
 /* Footer / Contact */
