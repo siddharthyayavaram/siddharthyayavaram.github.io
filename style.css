@@ -155,6 +155,10 @@ a:hover {
   border-bottom-color: var(--link-hover);
 }
 
+.contact-links span:hover {
+  color: var(--text);
+}
+
 /* ===================================== */
 /* Publications */
 /* ===================================== */
