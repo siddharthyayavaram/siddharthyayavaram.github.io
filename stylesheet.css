@@ -68,7 +68,6 @@ a {
   text-decoration: none;
 }
 
-a:focus,
 a:hover {
   color: #f09228;
   text-decoration: none;
